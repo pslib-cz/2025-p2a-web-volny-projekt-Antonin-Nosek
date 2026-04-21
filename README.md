@@ -1,8 +1,8 @@
 # Volný projekt
 
-> **Jméno a příjmení:** `Doplňte`
+> **Jméno a příjmení:** `Antonín Nosek`
 
-> **Název projektu:** `Doplňte`
+> **Název projektu:** `Motoklub Chrastava`
 
 ---
 
@@ -36,7 +36,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 | Výstup | Odkaz |
 |---|---|
 | GitHub Pages (live) | [`Doplň odkaz`](#) |
-| Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
+| Grafický manuál (Figma / Canva) | [`https://www.figma.com/design/0ycHXr6KL8y7Hu7L940UV0/Untitled?node-id=1-2&t=YP7QvSKVBnsc0KUj-0`](#) |
 | Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
