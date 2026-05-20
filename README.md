@@ -36,8 +36,8 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 | Výstup | Odkaz |
 |---|---|
 | GitHub Pages (live) | [`https://pslib-cz.github.io/2025-p2a-web-volny-projekt-Antonin-Nosek/`](#) |
-| Grafický manuál (Figma / Canva) | [`https://www.figma.com/design/0ycHXr6KL8y7Hu7L940UV0/Untitled?node-id=1-2&t=YP7QvSKVBnsc0KUj-0`](#) |
-| Grafický návrh webu (Figma) | [`https://www.figma.com/design/0ycHXr6KL8y7Hu7L940UV0/MK-Chrastava--Nosek-Anton%C3%ADn?node-id=19-2&t=TSsvGIpjhDECmtFo-1`](#) |
+| Grafický manuál (Figma / Canva) | [`https://www.figma.com/design/MhU3MY0r4O52bmYeFMnoOK/NosekAnton%C3%ADn?node-id=29-1034&t=PYSLCbpjgwlxciOD-1`](#) |
+| Grafický návrh webu (Figma) | [`https://www.figma.com/design/MhU3MY0r4O52bmYeFMnoOK/NosekAnton%C3%ADn?m=auto&t=PYSLCbpjgwlxciOD-1`](#) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
