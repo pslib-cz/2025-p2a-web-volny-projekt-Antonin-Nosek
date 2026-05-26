@@ -109,3 +109,29 @@ a{
 .nav__hamburger{
     z-index: 50;
 }
+.hero{
+    text-align: center;
+}
+
+
+
+.btn{
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+}
+.btn--blue{
+    font-family: var(--font-body);
+    background: var(--modra);
+    border: 2px solid var(--modra);
+    color: var(--bila);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.btn--outline{
+    font-family: var(--font-he);
+    color: var(--bila);
+    border: 2px solid var(--bila);
+    font-size: 1.25rem;
+    font-weight: 500;
+}

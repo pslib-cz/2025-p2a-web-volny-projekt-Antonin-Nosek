@@ -47,4 +47,4 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 
 `21.04 - zacatek ve figmě`
-`26.5. - navbar asi hotovy + nejaka zakladni struktura navrzena AI, jeste jsem ji nekontroloval ale postupne to projdu`
+`26.5. - navbar asi hotovy + nejaka zakladni struktura navrzena AI, jeste jsem ji nekontroloval ale postupne to projdu. Ted delam tlacitko, ve figme mam Semibold a vypada to OK, tady dam SemiBold(600) a vypada to jako bold Pro Max. Kdyz tadz nastavuji font-weight tak to vypada jinak nez ve figme a ve figme to pusi jako by byl vetsi letter-spacing ale tam ho mam na 0%. Nevim co je spatne.`
