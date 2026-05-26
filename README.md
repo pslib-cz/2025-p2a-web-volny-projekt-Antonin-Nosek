@@ -47,4 +47,4 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 
 `21.04 - zacatek ve figmě`
-`navbar asi hotovy`
+`26.5. - navbar asi hotovy + nejaka zakladni struktura navrzena AI, jeste jsem ji nekontroloval ale postupne to projdu`
