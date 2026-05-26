@@ -44,7 +44,7 @@ header {
 .nav__hamburger {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 7px;
     background: none;
     border: none;
     cursor: pointer;
@@ -52,9 +52,9 @@ header {
 }
 .nav__hamburger span {
     display: block;
-    width: 34px;
-    height: 4px;
-    border-radius: 2px;
+    width: 37px;
+    height: 7px;
+    border-radius: 8px;
     background: var(--seda);
     transition: transform 0.3s, opacity 0.3s;
     transform-origin: center;
