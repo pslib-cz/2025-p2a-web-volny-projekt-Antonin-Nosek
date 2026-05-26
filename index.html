@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motoklub Chrastava</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/Vector.svg" alt="Motoklub Chrastava logo" width="124px" height="55px">
+                </a>
+                <button class="nav__hamburger" aria-label="Otevřít menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#onas">Domů</a></li>
+                <li><a href="#zavody">Akce</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero__title">MOTOKLUB</h1>
+            <h2 class="hero__subtitle">CHRASTAVA</h2>
+            <p class="hero__description">
+                Vášeň pro motocross a enduro.<br>
+                Připojte se k naší komunitě jezdců a<br>
+                zažijte adrenalin na trati.
+            </p>
+            <ul class="hero__stats">
+                <li class="hero__stat">
+                    <span class="hero__stat-icon" aria-hidden="true">👥</span>
+                    <span>50+ Členů</span>
+                </li>
+                <li class="hero__stat">
+                    <span class="hero__stat-icon" aria-hidden="true">🏆</span>
+                    <span>15+ Závodů</span>
+                </li>
+                <li class="hero__stat hero__stat--full">
+                    <span class="hero__stat-icon" aria-hidden="true">⚡</span>
+                    <span>100% Adrenalinu</span>
+                </li>
+            </ul>
+            <div class="hero__actions">
+                <a href="#kontakt" class="btn btn--primary">Připojit se ke klubu</a>
+                <a href="#onas" class="btn btn--outline">Více o nás</a>
+            </div>
+        </section>
+        <section class="onas" id="onas">
+            <h2 class="section-title">O nás</h2>
+            <p>Motoklub Chrastava je komunita nadšenců motocrossu a endura, kteří sdílejí vášeň pro adrenalin a off-road jízdu.</p>
+
+            <h3 class="onas__subheading">Naše historie</h3>
+            <p>Založení v roce 2010, začínali jsme jako malá skupina přátel, kteří milovali motocross. Dnes jsme jedním z nejaktivnějších motoklubů v regionu s více než 50 členy všech věkových kategorií.</p>
+            <p>Naším cílem je podporovat bezpečnou a zodpovědnou jízdu, organizovat závody a tréninky, a vytvářet komunitu, kde se každý cítí vítán – od začátečníků po zkušené závodníky.</p>
+
+            <div class="onas__foto">
+                <!-- místo fotky -->
+            </div>
+        </section>
+
+        <section class="info-karty">
+            <article class="info-karta">
+                <span class="info-karta__ikona" aria-hidden="true">📍</span>
+                <h3 class="info-karta__nazev">Lokace</h3>
+                <p class="info-karta__popis">Chrastava a okolí, Liberecký kraj</p>
+            </article>
+            <article class="info-karta">
+                <span class="info-karta__ikona" aria-hidden="true">📅</span>
+                <h3 class="info-karta__nazev">Založen</h3>
+                <p class="info-karta__popis">2010 – více než 13 let zkušeností</p>
+            </article>
+            <article class="info-karta">
+                <span class="info-karta__ikona" aria-hidden="true">🏆</span>
+                <h3 class="info-karta__nazev">Úspěchy</h3>
+                <p class="info-karta__popis">Regionální a národní závody</p>
+            </article>
+            <article class="info-karta">
+                <span class="info-karta__ikona" aria-hidden="true">❤️</span>
+                <h3 class="info-karta__nazev">Komunita</h3>
+                <p class="info-karta__popis">Přátelská atmosféra pro všechny</p>
+            </article>
+        </section>
+
+        <section class="cta">
+            <h2 class="cta__nadpis">Připoj se k nám!</h2>
+            <p class="cta__popis">Staň se součástí naší motocrossové rodiny</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer__sloupec">
+            <h4 class="footer__nadpis">Mohlo by vás zajímat:</h4>
+            <ul class="footer__nav">
+                <li><a href="#onas">O nás</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="#zavody">Akce a závody</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+            </ul>
+        </div>
+        <div class="footer__sloupec" id="kontakt">
+            <h4 class="footer__nadpis">Kde nás najdete:</h4>
+            <address>
+                Motoklub Chrastava<br>
+                463 31 Chrastava<br>
+                <br>
+                <a href="tel:+420742670174">+420 742 670 174</a><br>
+                <a href="mailto:infoMKchrastava@email.cz">infoMKchrastava@email.cz</a>
+            </address>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
