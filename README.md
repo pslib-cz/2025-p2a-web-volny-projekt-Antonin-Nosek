@@ -54,4 +54,6 @@ _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 
 `28.5 mam skoro celou main page, mistama jsem pozmenil vygenerovane html jinak bylo asi vpoho. Jeste dodelat ikony, fotku a footer`
 
-`29.5 nahral jsem 2 fotky pro homepage, zatim jsou obe moc velke musi se to opravit. Opet mam chvilku volna na praxich takze to poslu na github`
+`29.5 nahral jsem 2 fotky pro homepage, zatim jsou obe moc velke musi se to opravit. Opet mam chvilku volna na praxich takze to poslu na github.`
+
+`Z nejakeho duvod kdyz jsem komitnul praci a zobrazil ji na github pages, tak se mi tam nepridalo cele css, html se pouzilo nove protoze jsem tam uz mel ikonky v headeru, css se pouzilo nejake starsi. Proc se takove veci dejí? fakt netusim. porad ta mobile verze je nedodelana ale uz to z casti vypada jak ma.`
