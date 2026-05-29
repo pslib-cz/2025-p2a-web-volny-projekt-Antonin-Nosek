@@ -17,9 +17,11 @@
     SemiBold    600
     Bold        700
 */
+
 :root {
     --modra: #2961B4;
     --cervena: #FF0000;
+    --cervena-hover: #AC0101;
     --oranzova: #FF6C04;
     --bila: #FFFFFF;
     --seda: #3B3B3B;
@@ -30,6 +32,10 @@
     --font-heading: 'Barlow Condensed', sans-serif;
     --font-body: 'Barlow', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
+/*  tagy  */
 body{
     background: var(--tmave-modra);
     color: var(--bila);
@@ -44,6 +50,13 @@ header {
     top: 0;
     z-index: 999;
 }
+footer{
+    background: var(--hodne-modra);
+    padding: 2em 1em;
+}
+
+
+/*  navbar  */
 .navbar {
     background: white;
     display: flex;
@@ -109,12 +122,194 @@ a{
 .nav__hamburger{
     z-index: 50;
 }
+
+
+/*  hero  */
 .hero{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
     text-align: center;
+    height: 90vh;
+    background: linear-gradient(to bottom, #2961B4, #1E293B);
+}
+.hero__title{
+    font-weight: 700;
+    font-size: clamp(4rem, 8vh, 8rem);
+    margin: 0;
+}
+.hero__subtitle{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: clamp(40px, 40px, 48px);
+    color: var(--tmave-modra);
+}
+.hero__description{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0 1rem;
+}
+.hero__stats{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.hero__stat{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    font-weight: 600;
+    gap: 5px;
+}
+.header__svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke-width: 2;
+}
+.users{
+    stroke: rgb(255, 255, 255);
+}
+.trophy{
+    stroke: gold;
+}
+.energy{
+    stroke: #f93016;
+}
+.hero__button__container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+@keyframes skakat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+}
+.scroll__icon {
+    animation: skakat 1.2s ease-in-out infinite;
+}
+.onas{
+    padding: 1rem 0.75rem;
+}
+.section-title{
+    text-align: center;
+    font-size: 2.25rem;
+}
+.onas__description{
+    font-weight: 500;
+    padding: 0rem 1rem;
+}
+.onas__subheading{
+    margin: 0;
+
+    padding: 0rem 1rem;
+}
+.info-card__container{
+    /*
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(366px, 1fr));
+    */
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+}
+.info-card{
+    text-align: center;
+    background: var(--jina-modra);
+    border-radius: 8px;
+    padding: 2rem;
+}
+.info-card__nazev{
+    font-size: 1.5rem;
+    /*font-weight: 700;   <--- v zaklade u h3*/
+}
+.info-card__popis{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.cta{
+    text-align: center;
+    background: var(--cervena);
+    padding: 2rem 1rem;
+    margin: 0.75rem;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.cta:hover{
+    background: var(--cervena-hover);
+    transform: scale(1.05);
+}
+.cta__nadpis{
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+}
+.cta__popis{
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.footer__sloupec{
+    text-align: center;
+    padding: 1rem;
+}
+.footer__nav{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    font-size: 1rem;
+}
+.footer__nadpis{
+    margin: 0;
+    margin-bottom: 0.625rem;
+    font-size: 1.25rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+.onas__foto-container{
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.foto{
+    width: 100%;
+    height: auto;
+}
+.footer-footeru{
+    text-align: center;
+    color: var(--seda);
+    font-weight: 500;
+    font-size: 13px;
+}
+.pseudo-element::before{
+    display: block;
+    content: "";
+    height: 1px;
+    background: var(--tmave-modra);
+    margin-bottom: 1em;
+}
+.pseudo--after::after{
+    display: block;
+    content: "";
+    height: 1px;
+    background: var(--tmave-modra);
+    margin: 0.75em 0;
 }
 
 
 
+
+
+
+/*  ui komponenty  */
 .btn{
     display: inline-block;
     border-radius: 0.5rem;
@@ -127,6 +322,10 @@ a{
     color: var(--bila);
     font-size: 1.25rem;
     font-weight: 500;
+    transition: 0.3s ease;
+}
+.btn--blue:hover{
+    transform: scale(1.1);
 }
 .btn--outline{
     font-family: var(--font-he);
@@ -134,4 +333,9 @@ a{
     border: 2px solid var(--bila);
     font-size: 1.25rem;
     font-weight: 500;
+    transition: 0.3s ease;
+}
+.btn--outline:hover{
+    color: black;
+    background: var(--bila);
 }

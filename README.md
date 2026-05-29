@@ -27,7 +27,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
 `Motorkáři a příznivci motorek z Libereckého kraje, kteří hledají informace o klubu a jeho akcích.`
-
+.
 
 ## Odkazy a výstupy
 
@@ -47,4 +47,11 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 
 `21.04 - zacatek ve figmě`
+
 `26.5. - navbar asi hotovy + nejaka zakladni struktura navrzena AI, jeste jsem ji nekontroloval ale postupne to projdu. Ted delam tlacitko, ve figme mam Semibold a vypada to OK, tady dam SemiBold(600) a vypada to jako bold Pro Max. Kdyz tadz nastavuji font-weight tak to vypada jinak nez ve figme a ve figme to pusi jako by byl vetsi letter-spacing ale tam ho mam na 0%. Nevim co je spatne.`
+
+`dnes je 28.5 a na praxich mam asi hodinku volna nez mi najdou dalsi praci takze neco malo udelam, vcera jsem udelal jenom fonty do nove slozky. vecer bych chtel dodelat/mit hotovou hero sekci`
+
+`28.5 mam skoro celou main page, mistama jsem pozmenil vygenerovane html jinak bylo asi vpoho. Jeste dodelat ikony, fotku a footer`
+
+`29.5 nahral jsem 2 fotky pro homepage, zatim jsou obe moc velke musi se to opravit. Opet mam chvilku volna na praxich takze to poslu na github`
