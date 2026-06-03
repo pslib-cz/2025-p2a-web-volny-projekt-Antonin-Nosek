@@ -483,14 +483,6 @@ footer{
     margin-bottom: 0.5rem;
     font-family: var(--font-heading);
 }
-
-
-
-
-
-
-
-
 /*  ui komponenty  */
 .btn{
     display: inline-block;
@@ -506,7 +498,6 @@ footer{
     font-weight: 500;
     font-size: 0.875rem;
 }
-
 /*modifikatory*/
 .bg-linear-brown{
     background: linear-gradient(to right bottom, #B2683A, #602A04);
@@ -561,9 +552,6 @@ footer{
     width: fit-content;
     transition: background 0.2s, transform 0.1s;
 }
-
-
-
 /* pseudoelemnty nebo jak se to jmenuje*/
 .btn--kontakt:hover {
     background: var(--cervena-hover);
