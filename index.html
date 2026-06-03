@@ -14,25 +14,25 @@
                 <a href="index.html" class="logo">
                     <img src="images/Vector.svg" alt="Motoklub Chrastava logo" width="124px" height="55px">
                 </a>
+                <ul class="nav__menu">
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="akce.html">Akce</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                </ul>
                 <button class="nav__hamburger" aria-label="Otevřít menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </button>
-            </div>
-            <ul class="nav__menu">
-                <li><a href="index.html">Domů</a></li>
-                <li><a href="akce.html">Akce</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-                <li><a href="galerie.html">Galerie</a></li>
-            </ul>
+            </div> 
         </nav>
     </header>
     <main>
         <section class="hero">
             <div class="title__container"><!--potrebuju aby ty prvky meli 40 gap proto container-->
-                <h1 class="hero__title">MOTOKLUB</h1>
-                <h2 class="hero__subtitle">CHRASTAVA</h2>
+                <h1 class="hero__title">motoklub</h1>
+                <h2 class="hero__subtitle">chrastava</h2>
             </div>
             <p class="hero__description">
                 Vášeň pro motocross a enduro. Připojte se k naší komunitě jezdců a zažijte adrenalin na trati.
@@ -60,89 +60,91 @@
             </a>
         </section>
         <!--hero stats-→potreba dat ikony a potom upravit-->
-
+        
         <!--problem: kdyz se odkazu na id=onas tak se nadpis schova pod navbar-->
         <section class="onas" id="onas">
-            <div>
-                <h2 class="section-title">O nás</h2>
-                <p class="onas__description">Motoklub Chrastava je komunita nadšenců motocrossu a endura, kteří sdílejí vášeň pro adrenalin a off-road jízdu.</p>
-            </div>
-            <div>
-                <h3 class="onas__subheading">Naše historie</h3>
-                <p class="onas__description">Založení v roce 2010, začínali jsme jako malá skupina přátel, kteří milovali motocross. Dnes jsme jedním z nejaktivnějších motoklubů v regionu s více než 50 členy všech věkových kategorií.</p>
-                <p class="onas__description">Naším cílem je podporovat bezpečnou a zodpovědnou jízdu, organizovat závody a tréninky, a vytvářet komunitu, kde se každý cítí vítán – od začátečníků po zkušené závodníky.</p>
-            </div>
-
-            <div class="onas__foto-container">
-                <img class="foto" src="images/fotka-mobile.jpg" alt="742.jpg">
-            </div>
-
-            <!--doplnit mapu do hrefu-->
-            <div class="info-card__container">
-                <a href="#">
+            <div class="maxwidth-container">
+                <div class="onas__header">
+                    <h2 class="section-title">O nás</h2>
+                    <p class="onas__description">Motoklub Chrastava je komunita nadšenců motocrossu a endura, kteří sdílejí vášeň pro adrenalin a off-road jízdu.</p>
+                </div>
+                <div class="onas-container__content">
+                    <div>
+                        <h3 class="onas__subheading">Naše historie</h3>
+                        <p class="onas__description">Založení v roce 2010, začínali jsme jako malá skupina přátel, kteří milovali motocross. Dnes jsme jedním z nejaktivnějších motoklubů v regionu s více než 50 členy všech věkových kategorií.</p>
+                        <p class="onas__description">Naším cílem je podporovat bezpečnou a zodpovědnou jízdu, organizovat závody a tréninky, a vytvářet komunitu, kde se každý cítí vítán – od začátečníků po zkušené závodníky.</p>
+                    </div>
+                    <div class="onas__foto-container">
+                        <img class="foto" src="images/fotka-mobile.jpg" alt="742.jpg">
+                    </div>
+                </div>
+                <!--doplnit mapu do hrefu-->
+                <div class="info-card__container">
+                    <a href="#" title="Mapy: Chrastava">
+                        <article class="info-card info-card--hover">
+                            <span class="info-card__ikona" aria-hidden="true">📍</span>
+                            <h3 class="info-card__nazev">Lokace</h3>
+                            <p class="info-card__popis">Chrastava a okolí, Liberecký kraj</p>
+                        </article>
+                    </a>
                     <article class="info-card">
-                        <span class="info-card__ikona" aria-hidden="true">📍</span>
-                        <h3 class="info-card__nazev">Lokace</h3>
-                        <p class="info-card__popis">Chrastava a okolí, Liberecký kraj</p>
+                        <span class="info-card__ikona" aria-hidden="true">📅</span>
+                        <h3 class="info-card__nazev">Založen</h3>
+                        <p class="info-card__popis">2010 – více než 13 let zkušeností</p>
                     </article>
-                </a>
-                <article class="info-card">
-                    <span class="info-card__ikona" aria-hidden="true">📅</span>
-                    <h3 class="info-card__nazev">Založen</h3>
-                    <p class="info-card__popis">2010 – více než 13 let zkušeností</p>
-                </article>
-                <article class="info-card">
-                    <span class="info-card__ikona" aria-hidden="true">🏆</span>
-                    <h3 class="info-card__nazev">Úspěchy</h3>
-                    <p class="info-card__popis">Regionální a národní závody</p>
-                </article>
-                <article class="info-card">
-                    <span class="info-card__ikona" aria-hidden="true">❤️</span>
-                    <h3 class="info-card__nazev">Komunita</h3>
-                    <p class="info-card__popis">Přátelská atmosféra pro všechny</p>
-                </article>
+                    <article class="info-card">
+                        <span class="info-card__ikona" aria-hidden="true">🏆</span>
+                        <h3 class="info-card__nazev">Úspěchy</h3>
+                        <p class="info-card__popis">Regionální a národní závody</p>
+                    </article>
+                    <article class="info-card">
+                        <span class="info-card__ikona" aria-hidden="true">❤️</span>
+                        <h3 class="info-card__nazev">Komunita</h3>
+                        <p class="info-card__popis">Přátelská atmosféra pro všechny</p>
+                    </article>
+                </div>
             </div>
         </section>
-
-        <a href="kontakt.html">
-            <section class="cta">
-                <h2 class="cta__nadpis">Připoj se k nám!</h2>
-                <p class="cta__popis">Staň se součástí naší motocrossové rodiny</p>
-            </section>
-        </a>
-    </main>
-
-    <footer>
-        <div class="pseudo-element">
-            <div class="footer__sloupec">
-                <h4 class="footer__nadpis">Mohlo by vás zajímat:</h4>
-                <ul class="footer__nav">
-                    <li><a href="#onas">O nás</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                    <li><a href="akce.html">Akce a závody</a></li>
-                    <li><a href="galerie.html">Galerie</a></li>
-                </ul>
-            </div>
+        <div class="maxwidth-container">
+            <a href="kontakt.html">
+                <section class="cta">
+                    <h2 class="cta__nadpis">Připoj se k nám!</h2>
+                    <p class="cta__popis">Staň se součástí naší motocrossové rodiny</p>
+                </section>
+            </a>
         </div>
-        <div class="pseudo-element">
-            <div class="footer__sloupec">
-                <h4 class="footer__nadpis">Kde nás najdete:</h4>
-                <address>
-                    <p>Motoklub Chrastava</p>
-                    <p>463 31 Chrastava</p>
-                </address>
-                <div>
-                    <a href="tel:+420742670174">+420 742 670 174</a><br>
-                    <a href="mailto:infoMKchrastava@email.cz">infoMKchrastava@email.cz</a>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="pseudo-element">
+                <div class="footer__sloupec">
+                    <h4 class="footer__nadpis">Mohlo by vás zajímat:</h4>
+                    <ul class="footer__nav">
+                        <li><a href="index.html">O nás</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="akce.html">Akce a závody</a></li>
+                        <li><a href="galerie.html">Galerie</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pseudo-element">
+                <div class="footer__sloupec">
+                    <h4 class="footer__nadpis">Kde nás najdete:</h4>
+                    <address>
+                        <p>Motoklub Chrastava</p>
+                        <p>463 31 Chrastava</p>
+                    </address>
+                    <div class="footer-contacts">
+                        <a href="tel:+420742670174">+420 742 670 174</a>
+                        <a href="mailto:infoMKchrastava@email.cz">infoMKchrastava@email.cz</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer-footeru pseudo-element pseudo--after">
-            <p>© 2024 Motoklub Chrastava · Všechna práva vyhrazena</p>
+        <div class="footer-footeru pseudo--footer">
+            <p>© 2026 Motoklub Chrastava · Všechna práva vyhrazena</p>
         </div>
     </footer>
-
-
     <script src="script.js"></script>
 </body>
 </html>
