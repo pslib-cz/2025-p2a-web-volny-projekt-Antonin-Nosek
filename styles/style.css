@@ -585,10 +585,19 @@ footer{
     .flex{
         flex-direction: row;
         justify-content: space-evenly;
+        position: relative;
     }
     .pseudo-element::before{
-        height: 100px;
-        width: 10px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        height: 100%;
+        width: 1px;
+        margin: 0;
+    }
+    .pseudo-element:nth-child(2)::before {
+        display: none;
     }
 }
 @media (min-width: 1024px) {
