@@ -209,7 +209,6 @@ footer{
 .scroll__icon {
     animation: skakat 1.2s ease-in-out infinite;
 }
-
 /*  O nás */
 .onas{
     padding: 1rem 0.75rem;
@@ -257,7 +256,6 @@ footer{
     font-size: 1.25rem;
     font-weight: 600;
 }
-
 /* cta tlacitko */
 .cta{
     text-align: center;
@@ -282,7 +280,6 @@ footer{
     margin-top: 10px;
     font-weight: 500;
 }
-
 /* footer */
 .flex{
     display: flex;
@@ -343,8 +340,6 @@ footer{
     background: var(--tmave-modra);
     margin: 0.75em 0;
 }
-
-
 /* KONTAKT */
 .kontakt-container{
     display: grid;
@@ -430,12 +425,6 @@ footer{
 .contact-information__title{
     margin: 0;
 }
-
-
-
-
-
-
 /* akce */
 .grid-container{
     display: grid;
@@ -489,7 +478,6 @@ footer{
     border-radius: 0.5rem;
     padding: 0.75rem;
 }
-
 .badge{
     display: inline-block;
     border-radius: 6px;
@@ -566,7 +554,6 @@ footer{
 .btn--blue:hover{
     transform: scale(1.1);
 }
-
 @media (min-width: 768px) {
     .info-card__container{
         grid-template-columns: repeat(2, minmax(0, 1fr));
