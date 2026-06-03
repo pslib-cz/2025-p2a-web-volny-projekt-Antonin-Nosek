@@ -1,3 +1,5 @@
+@layer base, layout, components;
+
 /*font-size: clamp(2.5rem, 8vw, 6rem);   pro h1 a h2*/
 /*
     2px     0.125rem
@@ -22,6 +24,7 @@
 /* kontakt 326-370 */
 /*ui komponenty --> poslednich cca 40 radku*/
 
+@layer base {
 :root {
     --modra: #2961B4;
     --cervena: #FF0000;
@@ -67,7 +70,9 @@ footer{
     background: var(--hodne-modra);
     padding: 2em 1em;
 }
-.maxwidth-container{
+}
+@layer layout{
+    .maxwidth-container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
@@ -472,6 +477,9 @@ footer{
     margin-bottom: 0.5rem;
     font-family: var(--font-heading);
 }
+
+}
+@layer components {
 /*  ui komponenty  */
 .btn{
     display: inline-block;
@@ -554,7 +562,10 @@ footer{
 .btn--blue:hover{
     transform: scale(1.1);
 }
+}
+
 @media (min-width: 768px) {
+    @layer layout {
     .info-card__container{
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -599,12 +610,15 @@ footer{
     .pseudo-element:nth-child(2)::before {
         display: none;
     }
+    }
 }
 @media (min-width: 1024px) {
+    @layer layout {
     .info-card__container{
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
     .grid-container{
         grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
     }
 }

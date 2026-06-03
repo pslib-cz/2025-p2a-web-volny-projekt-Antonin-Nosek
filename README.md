@@ -71,14 +71,8 @@ _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 Dodelani
 ---
 mainpage fotka --> zmenseni velikosti(kvality)
-mapa: odkaz v karte na mainpagi+ v kontaktech (https://maps.google.com/?q=Chrastava)<--?
 
-ikony na dodelani:
-mainpage karty-4
-kontakt sipka-1
-akce karty-3 na kartu(3x3)
+upravit vzhled ikon(mainpage karty, kontakt, akce)
 
-
-footer pro desktop-pseudo mezi a ne nad
 jss galerii
 subgrid do karet akci
