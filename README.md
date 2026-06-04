@@ -68,11 +68,7 @@ _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 
 `kdyz na mainpage zacnu zoomovat tak se mi sekce O nás zacne predkryvat se sekci hero --> nevim zda je to problem ktery mam resit`
 
+`skoro vse je hotove`
 Dodelani
 ---
-mainpage fotka --> zmenseni velikosti(kvality)
-
-upravit vzhled ikon(mainpage karty, kontakt, akce)
-
-jss galerii
-subgrid do karet akci
+subdgrid na karty v akcich
