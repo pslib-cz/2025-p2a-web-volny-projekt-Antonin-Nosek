@@ -1,6 +1,4 @@
 @layer base, layout, components;
-
-/*font-size: clamp(2.5rem, 8vw, 6rem);   pro h1 a h2*/
 /*
     2px     0.125rem
     4px     0.25rem
@@ -19,11 +17,9 @@
     SemiBold    600
     Bold        700
 */
-
 /* styly pouzivane indexem 0-325*/
 /* kontakt 326-370 */
 /*ui komponenty --> poslednich cca 40 radku*/
-
 @layer base {
     :root {
         --modra: #2961B4;
